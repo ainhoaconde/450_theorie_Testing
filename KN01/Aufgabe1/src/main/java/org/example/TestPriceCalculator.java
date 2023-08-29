@@ -12,7 +12,7 @@ public class TestPriceCalculator {
         double specialprice = 200.0;
         double extraprice = 50.0;
         int extras = 4;
-        double discount = 10.0;
+        double discount = 12.0;
 
         // Erwartetes Ergebnis: (1000 / 100 * (100 - 12)) + 200 + (50 / 100 * (100 - 10))
         double expected_result = (baseprice / 100 * (100 - discount)) + specialprice + (extraprice / 100 * (100 - 10));
