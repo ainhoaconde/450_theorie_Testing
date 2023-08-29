@@ -1,0 +1,14 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢»€½øÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öû©Ì
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùª°ïşÿÿÿÿ
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Å½ÁÒ8šÓß¤1
+E
+java:S2440"/Remove this instantiation of "PriceCalculator".(à ™ì
+P
+java:S2209"5Change this instance-reference to a static reference.(ùª°ïşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(çÅ…ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(÷Åöû
+v
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(òª‰‹øÿÿÿÿ8åºà¤1
