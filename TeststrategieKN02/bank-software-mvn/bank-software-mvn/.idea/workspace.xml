@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="141ec8ac-aee1-4bce-9a8b-fc31c8734c70" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/.idea/450_theorie_Testing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/.idea/Source.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/.idea/sonarlint/issuestore/3/4/34234842279d088941d35278ed05a1c044e30dbe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/.idea/sonarlint/issuestore/5/2/523199569ff950be31d64c8ee469e706b5c205a8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/.idea/sonarlint/issuestore/f/c/fc0112daeaf7d03c2c788461dfb0f1e79e72822a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.gradle/7.5.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.gradle/7.5.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.gradle/7.5.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.idea/sonarlint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.idea/sonarlint/issuestore/1/8/1883c0b0586d14a85ec3126e6d59ef3e817c2101" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.idea/sonarlint/issuestore/7/4/743bb0f20a46d17579b9fbd84b63a58c48fa5c21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/build/classes/java/main/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/build/classes/java/main/org/example/PriceCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/build/classes/java/main/org/example/TestPriceCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/src/main/java/org/example/PriceCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/Aufgabe1/src/main/java/org/example/TestPriceCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestingGrundlagenKN01/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/bank-software-mvn.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/f/b/fb5bd6a9dc9ac21b32c99106c2b7739f57826608" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/tbz/bank/software/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/tbz/bank/software/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/tbz/bank/software/Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/tbz/bank/software/ExchangeRateOkhttp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/tbz/bank/software/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2UeX41zI6MVB9ZqeZ2bGFPIy58L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Source/450_theorie_Testing/TeststrategieKN02/bank-software-mvn/bank-software-mvn",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="141ec8ac-aee1-4bce-9a8b-fc31c8734c70" name="Changes" comment="" />
+      <created>1693300826327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693300826327</updated>
+      <workItem from="1693300827446" duration="86000" />
+      <workItem from="1693301487568" duration="173000" />
+      <workItem from="1693472425753" duration="2028000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
