@@ -71,3 +71,6 @@ gültige und ungültige Währungspaare eingeben werden.
 
    + Validierung von Benutzereingaben 
      + Überall dort, wo Benutzereingaben sind sollte man idealerweise  Validierungen hinzu, um sicherzustellen, dass nur gültige Eingaben akzeptiert werden.
+
+   + Tests 
+     + automatisierte Tests schrieben damit in Zukunft Zeit gespaart werden kann.
