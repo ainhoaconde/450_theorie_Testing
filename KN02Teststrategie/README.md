@@ -25,18 +25,18 @@ Link zurseite:https://www.rentalcars.com/de/city/ch/zurich/
 
 | Testfall                 | Erwartetes Ergebnis                | Status |
 |--------------------------|------------------------------------|--------|
-| Sprach ändern                 | Erfolgreicher sprach geändert von Englisch auf Deutsch               |        |
-| Aufgaben erstellen       | Neue Aufgabe wird angezeigt        |        |
-| Aufgaben bearbeiten      | Änderungen werden gespeichert      |        |
-| Aufgabenstatus aktualisieren | Status wird aktualisiert       |        |
-| Prioritäten zuweisen (Datum, Zeit und Abholort)    | Aufgabe zeigt zugewiesene Priorität|        |
-| Suchfunktion             | Korrekte Fahrzeuge werden angezeigt |        |
-| Fahrzeug wird ausgewählt            | Korrekte Fahrzeug informationen werden angezeigt |        |
-| Buchung weiter machen     | Versicherungsdetails wird angezeigt    |        |
-| Benachrichtigungen       | Benachrichtigungen erhalten        |        |
-| Angaben zum Hauptfahrer eintragen  | Angaben zum Hauptfahrer werden        |        |
-| Rechnungadresse festlegen  | Rechnungsadresse Daten werden festgehalten     |        |
-| Währung auswählen                 | Benutzer kann Währung auswählen mit welche er bezhalen will   |        |
+| Sprach ändern                 | Erfolgreicher sprach geändert von Englisch auf Deutsch               |  ok      |
+| Aufgaben erstellen       | Neue Aufgabe wird angezeigt        |    ok    |
+| Aufgaben bearbeiten      | Änderungen werden gespeichert      |    ok    |
+| Aufgabenstatus aktualisieren | Status wird aktualisiert       |     ok   |
+| Prioritäten zuweisen (Datum, Zeit und Abholort)    | Aufgabe zeigt zugewiesene Priorität|    ok    |
+| Suchfunktion             | Korrekte Fahrzeuge werden angezeigt |     ok   |
+| Fahrzeug wird ausgewählt            | Korrekte Fahrzeug informationen werden angezeigt |   ok     |
+| Buchung weiter machen     | Versicherungsdetails wird angezeigt    |    ok    |
+| Benachrichtigungen       | Benachrichtigungen erhalten        |     ok   |
+| Angaben zum Hauptfahrer eintragen  | Angaben zum Hauptfahrer werden        |   ok     |
+| Rechnungadresse festlegen  | Rechnungsadresse Daten werden festgehalten     |   ok     |
+| Währung auswählen                 | Benutzer kann Währung auswählen mit welche er bezhalen will   |   ok     |
 
 ***
 # Aufgabe 3
