@@ -6,7 +6,7 @@
 |----------|--------------|
 | Test 1   | Kaufpreis < 15'000 CHF, erwarteter Rabatt: 0% |
 | Test 2   | 15'000 CHF <= Kaufpreis <= 20'000 CHF, erwarteter Rabatt: 5% |
-| Test 3   | 20'000 CHF < Kaufpreis <= 25'000 CHF, erwarteter Rabatt: 7% |
+| Test 3   | 20'000 CHF <= Kaufpreis <= 25'000 CHF, erwarteter Rabatt: 7% |
 | Test 4   | Kaufpreis > 25'000 CHF, erwarteter Rabatt: 8.5% |
 
 *Konkrete Testfälle:*

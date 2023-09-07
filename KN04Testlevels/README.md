@@ -36,6 +36,7 @@ Der gewählte Testing Approach beeinflusst die Auswahl der Testing Levels, die d
 
 **Testing Levels (Testebenen)**:
 Testing Levels (Testebenen) sind verschiedene Ebenen oder Phasen im Prozess des Softwaretests, die nacheinander durchlaufen werden, um sicherzustellen, dass die Software gut funktioniert. Diese Ebenen ermöglichen es, verschiedene Aspekte der Software gründlich zu prüfen.
+![Testing Pyramide](./Bilder/testingPyramide.png)
 **Testing Types, Techniques and Tactics (Testarten, Testtechniken und -taktiken)**:
 - Testing Types sind unterschiedliche Arten von Tests, die auf spezifische Anforderungen und Aspekte der Software abzielen. Beispiele sind funktionales Testing, nicht-funktionales Testing und exploratives Testing.
 - Die Auswahl der Testing Types, Techniques und Tactics hängt von den Anforderungen des Projekts und den Zielen des Testprozesses ab. Sie können in verschiedenen Testing Levels verwendet werden, um sicherzustellen, dass verschiedene Aspekte der Software getestet werden.
