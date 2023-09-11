@@ -18,11 +18,26 @@
 # Bonus Aufgabe
 **Input Validierungen (Backend oder Frontend).**
 
-Die Input von den Benutzer sollten validiert werden.
+Die Input von den Benutzer sollten validiert werden Backend so wie auch Frontend.
 
 Name: Soll mindestens drei Buchstaben haben und keine Zahle beinhalten.
 Email: Soll wenn möglich mit einem Regex Validiert werden. Es soll geprüft werden ob es eine valide Email ist. 
 
 Zeit für die Implementation 45 min
 
-
+**Vorgehungsweise**
+1. Öffne 'pom.xml'
+2. Hinzufügen von den Dependency
+```xml
+<dependency>
+    <groupId>javax.validation</groupId>
+    <artifactId>validation-api</artifactId>
+    <version>2.0.1.Final</version> <!-- Update the version if necessary -->
+</dependency>
+<dependency>
+    <groupId>org.hibernate.validator</groupId>
+    <artifactId>hibernate-validator</artifactId>
+    <version>7.0.1.Final</version> <!-- Update the version if necessary -->
+</dependency>
+```
+3. Speichere die pom.xml-Datei und führe einen Buildvorgang aus, um die Abhängigkeiten herunterzuladen und in dein Projekt einzufügen.
