@@ -58,4 +58,4 @@ Die Aufgabe, Benutzereingaben für Name und Email sowohl auf der Frontend- als a
     <version>7.0.1.Final</version> <!-- Update the version if necessary -->
 </dependency>
 ```
-1. Speichere die pom.xml-Datei und führe einen Buildvorgang aus, um die Abhängigkeiten herunterzuladen und in dein Projekt einzufügen.
+3. Speichere die pom.xml-Datei und führe einen Buildvorgang aus, um die Abhängigkeiten herunterzuladen und in dein Projekt einzufügen.
