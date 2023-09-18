@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 /**
  * Tests für das Promo-Jugend-Sparkonto.
  *
- * @author XXXX
+ * @author ainhoa
  * @version 1.0
  */
 public class PromoYouthSavingsAccountTests
@@ -20,6 +20,11 @@ public class PromoYouthSavingsAccountTests
 	@Test
 	public void test()
 	{
-		fail("toDo");
+		PromoYouthSavingsAccount account = new PromoYouthSavingsAccount("1");
+		account.deposit(20221221, 100);
+		account.withdraw(20221221, 50);
+
+		double balance = account.getBalance();
+		assertEquals(51.0, balance, 0.01);
 	}
 }

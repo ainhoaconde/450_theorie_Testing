@@ -2,8 +2,6 @@ package ch.schule.bank.junit5;
 
 import ch.schule.SavingsAccount;
 
-
-
 /**
  * Tests f�r die Klasse SavingsAccount.
  *
@@ -25,9 +23,32 @@ import static org.junit.jupiter.api.Assertions.*;
 public class SavingsAccountTests
 {
 	@Test
-	public void test()
+	public void testInitialBalance()
 	{
-		fail("toDo");
+		SavingsAccount account = new SavingsAccount("1");
+		assertEquals(1000, account.getBalance(), 1000);	}
+	@Test
+	public void testDeposit()
+	{
+		SavingsAccount account = new SavingsAccount("2");
+		account.deposit(20230917,500);
+		assertEquals(500, account.getBalance(), 500);
 	}
+	@Test
+	public void testWithdraw()
+	{
+		SavingsAccount account = new SavingsAccount("3");
+		account.withdraw(20200123,300);
+		assertEquals(300, account.getBalance(), 300);
+	}
+	@Test
+	public void testWithdrawInsufficientFunds()
+	{
+		SavingsAccount account = new SavingsAccount("4");
+		boolean result = account.withdraw(20230911,500);
+		assertFalse(result);
+		assertEquals(500, account.getBalance(), 500);
+	}
+
 }
 
