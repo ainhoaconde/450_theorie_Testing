@@ -1,0 +1,21 @@
+
+t
+java:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").(ëÉÙÎüÿÿÿÿ
+\
+java:S3973V"GUse indentation to denote the code conditionally executed by this "if".(¶›Ê
+N
+java:S5993""9Change the visibility of this constructor to "protected".(³šh
+@
+java:S1905B"*Remove this unnecessary cast to "Booking".(¢Æİ
+N	java:S106{"9Replace this use of System.out or System.err by a logger.(Æãà¼
+N	java:S106|"9Replace this use of System.out or System.err by a logger.(É¢¡¿
+Q
+java:S1117~";Rename "balance" which hides the field declared at line 22.(òÖÁ×
+A
+java:S1905‚"*Remove this unnecessary cast to "Booking".(‰ïô
+O	java:S106‘"9Replace this use of System.out or System.err by a logger.(Ë¥ëº
+O	java:S106“"9Replace this use of System.out or System.err by a logger.(É¢¡¿
+R
+java:S1117˜";Rename "balance" which hides the field declared at line 22.(òÖÁ×
+A
+java:S1905œ"*Remove this unnecessary cast to "Booking".(‰ïô

@@ -6,7 +6,7 @@
 package ch.schule.bank.junit5;
 
 
-import ch.schule.Bank;
+import ch.schule.bank.junit5.Bank;
 
 /**
  * @author       Luigi Cavuoti

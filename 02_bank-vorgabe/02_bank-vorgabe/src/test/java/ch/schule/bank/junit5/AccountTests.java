@@ -1,13 +1,10 @@
 package ch.schule.bank.junit5;
 
-import ch.schule.Account;
-import ch.schule.Booking;
-import ch.schule.SalaryAccount;
-import ch.schule.SavingsAccount;
+import ch.schule.bank.junit5.Account;
+import ch.schule.bank.junit5.SalaryAccount;
+import ch.schule.bank.junit5.SavingsAccount;
 import org.junit.jupiter.api.Test;
 
-
-import java.util.TreeMap;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -100,5 +97,6 @@ public class AccountTests {
         Account account = new SalaryAccount("P-1007", -1000);
         account.deposit(20230917, 50000);
     }
+
 
 }

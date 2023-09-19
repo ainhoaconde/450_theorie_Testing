@@ -1,4 +1,4 @@
-package ch.schule;
+package ch.schule.bank.junit5;
 
 /**
  * Buchung.

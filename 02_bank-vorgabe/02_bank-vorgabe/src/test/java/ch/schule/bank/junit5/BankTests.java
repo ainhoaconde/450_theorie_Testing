@@ -1,6 +1,6 @@
 package ch.schule.bank.junit5;
 
-import ch.schule.Bank;
+import ch.schule.bank.junit5.Bank;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -137,6 +137,34 @@ public class BankTests {
         bank.deposit("8",20230917,415522);
 
         bank.printBottom5();
+    }
+    @Test
+    public void testCreateSavingsAccount() {
+        // Erzeuge ein Sparkonto in der Bank
+        String accountNumber = bank.createSavingsAccount();
+
+        // Überprüfe, ob die erstellte Kontonummer nicht null ist
+        assertNotNull(accountNumber);
+
+        // Überprüfe, ob die erstellte Kontonummer das erwartete Format hat (z.B., "S-1000")
+        assertTrue(accountNumber.matches("S-\\d+"));
+
+        // Überprüfe, ob das Konto tatsächlich in der Bank gespeichert ist
+
+    }
+    @Test
+    public void testCreatePromoYouthSavingsAccount() {
+        // Erzeuge ein Promo-Jugendsparkonto in der Bank
+        String accountNumber = bank.createPromoYouthSavingsAccount();
+
+        // Überprüfe, ob die erstellte Kontonummer nicht null ist
+        assertNotNull(accountNumber);
+
+        // Überprüfe, ob die erstellte Kontonummer das erwartete Format hat (z.B., "Y-1000")
+        assertTrue(accountNumber.matches("Y-\\d+"));
+
+        // Überprüfe, ob das erstellte Konto ein PromoYouthSavingsAccount ist
+        assertFalse(bank.getAccount(accountNumber) instanceof PromoYouthSavingsAccount);
     }
 
 }

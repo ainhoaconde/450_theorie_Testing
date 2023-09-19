@@ -1,4 +1,4 @@
-package ch.schule;
+package ch.schule.bank.junit5;
 import java.util.*;
 
 /**
@@ -258,7 +258,7 @@ public class Bank
 	 * @return  Returns the account.
 	 * @uml.property  name="account"
 	 */
-	public Account getAccount() {
+	public Account getAccount(String accountNumber) {
 		return account;
 	}
 

@@ -1,11 +1,7 @@
 package ch.schule.bank.junit5;
 
-import ch.schule.BankUtils;
-import ch.schule.Booking;
+import ch.schule.bank.junit5.Booking;
 import org.junit.jupiter.api.Test;
-
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
@@ -41,5 +37,16 @@ public class BookingTests {
 
 		Booking booking = new Booking(date, amount);
 		booking.print(balance);
+	}
+	@Test
+	public void testConstructorAndGetters() {
+		int date = 20221001;
+		long amount = 100000;
+
+		Booking booking = new Booking(date, amount);
+
+
+		assertEquals(date, booking.getDate());
+		assertEquals(amount, booking.getAmount());
 	}
 }

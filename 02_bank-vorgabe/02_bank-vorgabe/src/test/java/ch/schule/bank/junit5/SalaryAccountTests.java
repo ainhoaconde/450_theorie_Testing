@@ -1,6 +1,6 @@
 package ch.schule.bank.junit5;
 
-import ch.schule.SalaryAccount;
+import ch.schule.bank.junit5.SalaryAccount;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,6 +1,6 @@
 package ch.schule.bank.junit5;
 
-import ch.schule.SavingsAccount;
+import ch.schule.bank.junit5.SavingsAccount;
 
 /**
  * Tests f�r die Klasse SavingsAccount.
@@ -48,6 +48,21 @@ public class SavingsAccountTests
 		boolean result = account.withdraw(20230911,500);
 		assertFalse(result);
 		assertEquals(500, account.getBalance(), 500);
+	}
+	@Test
+	public void testWithdrawWithinCreditLimit() {
+		SalaryAccount account = new SalaryAccount("1",4000);
+		int date = 20221001; // Ein beliebiges Datum
+		long initialBalance = account.getBalance();
+		long amountToWithdraw = 0;// Betrag innerhalb des Kreditlimits
+
+		boolean result = account.withdraw(date, amountToWithdraw);
+
+		// Überprüfe, ob die Abhebung erfolgreich war (true zurückgegeben wurde)
+		assertFalse(result);
+
+		// Überprüfe, ob der Kontostand nach der Abhebung korrekt aktualisiert wurde
+		assertEquals(initialBalance - amountToWithdraw, account.getBalance());
 	}
 
 }
