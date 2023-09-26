@@ -1,0 +1,27 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(øµ¿Äüÿÿÿÿ
+]
+java:S3973u"GUse indentation to denote the code conditionally executed by this "if".(žŒ™Œ
+^
+java:S3973¾"GUse indentation to denote the code conditionally executed by this "if".(žŒ™Œ
+A
+java:S1905Z",Remove this unnecessary cast to "Account[]".(»¤€6
+@
+java:S1905s"*Remove this unnecessary cast to "Account".(Ö¥Äé
+A
+java:S1905Ž"*Remove this unnecessary cast to "Account".(Ö¥Äé
+A
+java:S1905ª"*Remove this unnecessary cast to "Account".(Ö¥Äé
+A
+java:S1905¼"*Remove this unnecessary cast to "Account".(Ö¥Äé
+A
+java:S1905Ï"*Remove this unnecessary cast to "Account".(Ö¥Äé
+B
+java:S1905Ü",Remove this unnecessary cast to "Account[]".(»¤€6
+A	java:S106ã"+Replace this use of System.out by a logger.(¡¿°ž
+B
+java:S1905í",Remove this unnecessary cast to "Account[]".(»¤€6
+A	java:S106õ"+Replace this use of System.out by a logger.(¡¿°ž
+W
+java:S1172…"4Remove this unused method parameter "accountNumber".(òïëÙþÿÿÿÿ8ØŒÇâª1

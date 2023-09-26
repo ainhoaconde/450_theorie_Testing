@@ -1,0 +1,7 @@
+
+2
+java:S16434"Use a StringBuilder instead.(ÃÌ•
+o
+java:S1488#"YImmediately return this expression instead of assigning it to the temporary variable "s".(ÿÈ˜Ğ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(¹«Ç•

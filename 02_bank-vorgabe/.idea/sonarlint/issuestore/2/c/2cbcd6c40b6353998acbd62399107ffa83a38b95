@@ -1,12 +1,12 @@
 
-H
-java:S2699H"-Add at least one assertion to this test case.(š¨ºÁûÿÿÿÿ
-C
-java:S2699R"-Add at least one assertion to this test case.(…Çš
+O
+java:S2699H"-Add at least one assertion to this test case.(š¨ºÁûÿÿÿÿ8 ªÁâª1
 J
-java:S2699n"-Add at least one assertion to this test case.(ÛÄ¯À8ì‚¬Âª1
+java:S2699R"-Add at least one assertion to this test case.(…Çš8 ªÁâª1
+J
+java:S2699n"-Add at least one assertion to this test case.(ÛÄ¯À8¡ªÁâª1
 P
-java:S2699€"-Add at least one assertion to this test case.(¨Äƒ÷ûÿÿÿÿ8‹¾®Âª1
+java:S2699€"-Add at least one assertion to this test case.(¨Äƒ÷ûÿÿÿÿ8¢ªÁâª1
 9
 java:S5786"Remove this 'public' modifier.(ŠéÓúÿÿÿÿ
 4
@@ -23,11 +23,15 @@ java:S5786]"Remove this 'public' modifier.(·©©È
 java:S5786n"Remove this 'public' modifier.(ÛÄ¯À
 :
 java:S5786€"Remove this 'public' modifier.(¨Äƒ÷ûÿÿÿÿ
-4
-java:S5786"Remove this 'public' modifier.(¥ü‹
-4
-java:S5785"Use assertEquals instead.(÷Ç±¤ÿÿÿÿÿ
-4
-java:S5785!"Use assertEquals instead.(Öß‘Şüÿÿÿÿ
-/
-java:S5785$"Use assertEquals instead.(€…¬
+5
+java:S5786"Remove this 'public' modifier.(‹åí”
+A
+java:S5786œ"Remove this 'public' modifier.(ôÍì­ûÿÿÿÿ8ûËÆâª1
+;
+java:S5786"Remove this 'public' modifier.(¥ü‹8Óâª1
+;
+java:S5785"Use assertEquals instead.(÷Ç±¤ÿÿÿÿÿ8¥ªÁâª1
+;
+java:S5785!"Use assertEquals instead.(Öß‘Şüÿÿÿÿ8¦ªÁâª1
+6
+java:S5785$"Use assertEquals instead.(€…¬8¦ªÁâª1
