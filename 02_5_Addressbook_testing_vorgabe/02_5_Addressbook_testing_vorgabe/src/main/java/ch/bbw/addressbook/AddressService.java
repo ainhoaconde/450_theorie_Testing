@@ -1,6 +1,7 @@
 package ch.bbw.addressbook;
 
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
@@ -10,11 +11,11 @@ import java.util.List;
 public class AddressService {
 
 	// field injectiuon for heavier testing
-	// @Autowired
+	 //@Autowired
 	private AddressDAO addressDAO;
 
 	// constructor injection for easy to test
-	public AddressService(AddressDAO addressDAO) {
+	public AddressService(@Qualifier("addressDAO_Database") AddressDAO addressDAO) {
 		this.addressDAO = addressDAO;
 	}
 
@@ -24,10 +25,9 @@ public class AddressService {
 		// TODO: Hier Sortierung einbauen
 		
 		// TODO: Order by lastname
-//		// Einfache Sortiervariante ohne externen eigenständigen Comparator
-//		addresses.sort( (a1, a2) -> { 
-//			return a1.getLastname().compareTo(a2.getLastname()); 
-//		});
+		// Einfache Sortiervariante ohne externen eigenständigen Comparator
+		addresses.sort( (a1, a2) -> {
+			return a1.getLastname().compareTo(a2.getLastname());});
 		
 		addresses.sort(new LastnameFirstnameRegistrationDatecomparator());
 		

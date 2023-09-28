@@ -34,11 +34,23 @@ public class AddressDAO_Memory implements AddressDAO {
 	}
 
 	public void update(Address address) {
-		// TODO: update, not implemented yet
+		for (int i = 0; i < addresses.size(); i++) {
+			if (addresses.get(i).getId() == address.getId()) {
+				addresses.set(i, address);
+				return;
+			}
+		}
+		throw new IllegalArgumentException("Address not found for ID: " + address.getId());
 	}
-	
+
 	public void delete(int id) {
-		// TODO: delete, not implemented yet
+		for (int i = 0; i < addresses.size(); i++) {
+			if (addresses.get(i).getId() == id) {
+				addresses.remove(i);
+				return;
+			}
+		}
+		throw new IllegalArgumentException("Address not found for ID: " + id);
 	}
 
 }

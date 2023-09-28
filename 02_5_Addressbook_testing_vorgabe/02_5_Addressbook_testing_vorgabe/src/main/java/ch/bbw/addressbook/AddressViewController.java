@@ -20,6 +20,9 @@ public class AddressViewController {
     public AddressViewController() {
         message = "";
     }
+    public void setAddressService(AddressService addressService) {
+        this.addressService = addressService;
+    }
 
     private void clearFields() {
         firstname = "";

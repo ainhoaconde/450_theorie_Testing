@@ -14,7 +14,7 @@ public class AddressDAO_Database implements AddressDAO {
 	private Connection connection; // TODO: to be replaced by connection pool
 
 	@PostConstruct
-	private void init() {
+	void init() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			connection = DriverManager.getConnection("jdbc:mysql://localhost/AddressBook","root","");
@@ -25,7 +25,7 @@ public class AddressDAO_Database implements AddressDAO {
 		}
 	}
 	@PreDestroy
-	private void destroy() {
+	void destroy() {
 		try {
 			connection.close();
 		} catch (SQLException e) {
@@ -51,17 +51,46 @@ public class AddressDAO_Database implements AddressDAO {
 	 */
 //	@Override
 	public void create(Address address) {
-		// TODO: create, not implemented yet
+		try {
+			PreparedStatement stmt = connection.prepareStatement("INSERT INTO address (firstname, lastname, phonenumber, registrationDate) VALUES (?, ?, ?, ?)");
+			stmt.setString(1, address.getFirstname());
+			stmt.setString(2, address.getLastname());
+			stmt.setString(3, address.getPhonenumber());
+			stmt.setDate(4, new java.sql.Date(address.getRegistrationDate().getTime())); // Convert Java Date to SQL Date
+
+			int rowsInserted = stmt.executeUpdate();
+			if (rowsInserted != 1) {
+				throw new IllegalStateException("Create operation inserted " + rowsInserted + " rows instead of 1.");
+			}
+
+			stmt.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 	}
 
-	/* (non-Javadoc)
-	 * @see ch.bbw.addressbook.AddressDAOInterface#read(int)
-	 */
-//	@Override
 	public Address read(int id) {
-		// TODO: read, not implemented yet
-		return null;
+		try {
+			PreparedStatement stmt = connection.prepareStatement("SELECT * FROM address WHERE id = ?");
+			stmt.setInt(1, id);
+			ResultSet result = stmt.executeQuery();
+
+			if (result.next()) {
+				return new Address(
+						result.getInt("id"),
+						result.getString("firstname"),
+						result.getString("lastname"),
+						result.getString("phonenumber"),
+						result.getDate("registrationDate")
+				);
+			}
+			return null;
+		} catch (SQLException e) {
+			e.printStackTrace();
+			return null;
+		}
 	}
+
 
 	/* (non-Javadoc)
 	 * @see ch.bbw.addressbook.AddressDAOInterface#readAll()
@@ -91,15 +120,40 @@ public class AddressDAO_Database implements AddressDAO {
 	 */
 //	@Override
 	public void update(Address address) {
-		// TODO: update, not implemented yet
+		try {
+			PreparedStatement stmt = connection.prepareStatement("UPDATE address SET firstname=?, lastname=?, phonenumber=?, registrationDate=? WHERE id=?");
+			stmt.setString(1, address.getFirstname());
+			stmt.setString(2, address.getLastname());
+			stmt.setString(3, address.getPhonenumber());
+			stmt.setDate(4, new java.sql.Date(address.getRegistrationDate().getTime())); // Convert Java Date to SQL Date
+			stmt.setInt(5, address.getId());
+
+			int rowsUpdated = stmt.executeUpdate();
+			if (rowsUpdated != 1) {
+				throw new IllegalStateException("Update operation affected " + rowsUpdated + " rows instead of 1.");
+			}
+
+			stmt.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 	}
 
-	/* (non-Javadoc)
-	 * @see ch.bbw.addressbook.AddressDAOInterface#delete(int)
-	 */
-//	@Override
 	public void delete(int id) {
-		// TODO: delete, not implemented yet
+		try {
+			PreparedStatement stmt = connection.prepareStatement("DELETE FROM address WHERE id=?");
+			stmt.setInt(1, id);
+
+			int rowsDeleted = stmt.executeUpdate();
+			if (rowsDeleted != 1) {
+				throw new IllegalStateException("Delete operation affected " + rowsDeleted + " rows instead of 1.");
+			}
+
+			stmt.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 	}
+
 
 }
